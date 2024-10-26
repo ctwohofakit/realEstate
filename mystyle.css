@@ -1,0 +1,29 @@
+/*global*/
+*{
+    margin:0;
+    padding:0;
+
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+p{
+    line-height: 2;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+/*footer*/
