@@ -8,19 +8,48 @@
 body{
     font-family: "Montserrat", sans-serif;
 }
+
 p{
     line-height: 2;
 }
+
 a{
     text-decoration: none;
+    color:white;
 }
+
 h1,h2,h3{
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
+img{
+    max-width: 100%;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/*utilities*/
 
 
+
+
+
+/*top menu section*/
+header.site-init{
+    background-image: url(./image/header.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 300px;
+    color:white;
+    text-align: center;
+}
+
+.menu{
+    word-spacing: 20px;
+}
 
 
 
