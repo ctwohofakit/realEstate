@@ -18,7 +18,17 @@ a{
     color:white;
 }
 
-h1,h2,h3{
+h1 {
+    font-size: 36px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h2 {
+    font-size: 32px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+h3 {
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -31,8 +41,10 @@ a:hover{
     text-decoration: underline;
 }
 
-/*utilities*/
 
+
+
+/*utilities*/
 
 
 
@@ -49,10 +61,94 @@ header.site-init{
 
 .menu{
     word-spacing: 20px;
+    font-size: 20px;
 }
 
 
+/*body*/
+.content-container {
+    display:flex;
+    margin-top:10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
 
+/*penthouse section*/
+.houses-container {
+    display:flex; 
+    justify-content: space-evenly;
+    gap: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.houses-item {
+    display:flex;
+    flex-direction: column;
+    max-width: 70%;
+    border:2px solid#ccc;
+    background-color: #e4e8ebd0;
+
+}
+
+
+.houses-item-img {
+    width: 500%;
+    height: auto;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.houses-item-text {
+    padding: 25px;
+}
+
+.houses-item-text h3{
+    font-size: 26px;
+    padding: 3px;
+}
+.price {
+    color: green;
+    font-weight: bold;
+}
+
+.icons-list {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.icon-container {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+.icon-container img {
+    padding: 10px;
+}
+.icon-container span {
+    margin-top: 5px;
+}
+
+.btn {
+    font-size: 20px;
+    background-color: rgb(214, 131, 21);
+    color:white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+
+/* utilities */
+
+
+
+/*Penthouse section*/
 
 
 /*footer*/

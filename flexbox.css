@@ -1,0 +1,83 @@
+/*global*/
+*{
+    padding:0px;
+    margin:0;
+}
+
+:root{
+    --bg-blue:#0000FF;
+    --bg-yellow:#FFFF00;
+
+}
+h1 {
+    color:#0000FF;
+    margin-bottom:50px;
+    text-align:ceeter;
+
+}
+p{
+    background-color:var(--bg-yellow);
+    padding:20px;
+    font-weight:bold;
+
+}
+div[class^="flex-cont"]{
+    margin-bottom:100px;
+}
+
+/*==========Row===========*/
+/*flex-start*/
+.flex-container-row-start{
+    background: var(--bg-blue);
+    display:flex;
+    justify-content:flex-start;
+    gap:20px;
+}
+
+/*center*/
+.flex-container-row-center{
+    background: var(--bg-blue);
+    display:flex;
+    justify-content:center;
+}
+
+
+/**flex-end*/
+.flex-container-row-end{
+    background: var(--bg-blue);
+    display: flex;
+    justify-content:flex-end;
+
+}
+
+/**flex-end*/
+.flex-container-row-between{
+    background: var(--bg-blue);
+    display: flex;
+    justify-content:space-between;
+
+}
+
+/**flex-end*/
+.flex-container-row-around{
+    background: var(--bg-blue);
+    display: flex;
+    justify-content:space-around;
+
+}
+
+.flex-container-row-evenly{
+    background: var(--bg-blue);
+    display: flex;
+    justify-content:space-evenly;
+
+}
+
+.flex-contianer-row-column-2{
+    background: var(--bg-blue);
+    height:200px;
+    display: flex;
+    align-items:flex-start;
+    justify-content: flex-end;
+
+}
