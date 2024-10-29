@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="mystyle.css"> 
+</head>
+
+
+<body>
+    <header class="contact-header">
+        <div class="contact-container">
+            <div class="bar-menu">
+                <h1><a href="./index.html">RealEstate</a></h1>
+                    <nav class="contact-menu">
+                        <a href="#">About</a>
+                        <a href="#">Blog</a>
+                        <a href="./contact.html">Contact</a>
+                    </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="contact-container">
+        <h1>Contact</h1>
+        <div>
+            <h3>Fill the next information</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores veniam deleniti sint omnis vel modi incidunt, odit amet aspernatur eligendi adipisci fugiat quod minima esse. Modi exercitationem accusantium tenetur vel!</p>
+
+            <div class="form-container">
+                <fieldset>
+                    <legend>Personal information</legend>
+                    <div>
+                        <label for="name">Name:</label>
+                        <input id="name" type="text">
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input id="email" type="email">
+                    </div>
+                    <div>
+                        <label for="phone">Phone number:</label>
+                        <input id="phone" type="tel">
+                    </div>
+                    <div>
+                        <label for="message">Message:</label>
+                        <textarea id="message"></textarea>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Product information</legend>
+                    <div>
+                        <label for="type">Type:</label>
+                        <select id="select">
+                            <option value="option1">--- Option 1 ---</option>
+                            <option value="option2">--- Option 2 ---</option>
+                            <option value="option3">--- Option 3 ---</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="number">Number</label>
+                        <input id="number" maxlength="10" type="num">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Contact information</legend>
+                        <div class="contact-information">
+                            Email:<input type="radio" value="active"/>
+                            Phone:<input type="radio" value="inactive"/>
+                        </div>
+                        <div class="contact-information">
+                            <label for="date">Date:</label>
+                            <input id="date" type="date">
+                            <label for="hour">Hour:</label>
+                            <input id="hour" type="time">
+                        </div>
+                </fieldset>
+            </div> 
+        </div>
+    </main>
+
+    <footer>
+        <div>
+        <p>Powered by </p><a href="#">Zillow</a>
+        </div>
+        <div>
+        <p>Copyright @ 2024 | </p><a href="#">Privacy Policy</a>
+        </div>
+        <div class="icons">
+            <p>F</p>/p>
+            <p>In</p>
+            <p>Y</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,8 +1,13 @@
 /*global*/
+
 *{
     margin:0;
     padding:0;
+}
 
+:root {
+    --grey: #F5F5EF;
+    --button: rgb(214, 131, 21);
 }
 
 body{
@@ -19,9 +24,8 @@ a{
 }
 
 h1 {
-    font-size: 36px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-top: 20px;
+    font-size: 34px;
 }
 h2 {
     font-size: 32px;
@@ -52,20 +56,79 @@ a:hover{
 /*top menu section*/
 header.site-init{
     background-image: url(./image/header.jpg);
-    background-position: top;
+    background-position: center;
     background-size: cover;
-    height: 300px;
+    height: 350px;
     color:white;
-    text-align: center;
+    display:flex;
+    justify-content:space-around;
+    margin-top:10px;
+    max-width: 100%;
+}
+.hearderText{
+    flex-direction: coulmn;
+    align-items: stretch;
+
+}
+.hearderText h3{
+    padding-bottom: 30px;
+    line-height: 0px;
 }
 
-.menu{
-    word-spacing: 20px;
-    font-size: 20px;
+.bar-menu{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
 }
+
+
+/*blog page*/
+.blog{
+    background-color: black;
+    background-position: top;
+    background-size: cover;
+    height: 100px;
+    color:white;
+    display:flex;
+    margin-top:10px;
+    max-width: 100%;
+
+}
+
+.top-bar{
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 60%;
+
+
+}
+
+
+.menu{
+    margin-top: 30px;
+    word-spacing: 10px;
+
+}
+
+
+.btn-blog{
+    background-color: #e6d2b5;
+    background-size:10px;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 26px;
+    margin-top: 20px;
+    display: block;
+    align-items: center;
+    text-align: center;
+
+}
+
 
 
 /*body*/
+
 .content-container {
     display:flex;
     margin-top:10px;
@@ -142,13 +205,172 @@ header.site-init{
     margin-right: 20px;
 
 }
+.btn:hover {
+    transform: scale(0.9);
+}
+
+/*blog content section */
+.content-section{
+    background-color: var(--grey);
+    padding-top: 20px;;
+    padding-bottom: 30px;
+    text-wrap: wrap;
+    padding: 10px;
+}
+
+.content-block{
+    max-width: 1000px;
+    display: flex;
+    background-color: #ececea; 
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(168, 167, 167);
+
+}
+.content-block img{
+    height: 400px;
+    width: 600px;
+    display:block;
+    text-align: left;
+    flex-direction: column;
+    flex-basis: 30%;
+}
+.content-block h3,p{
+    padding-left: 20px;
+    text-wrap: wrap;
+    padding-bottom: 20px;;
+}
+
+.read {
+    margin-left: 20px;;
+    padding: 10px;
+    background-color: var(--button);
+    color:#ffffff;
+    border:0px;
+}
 
 
-/* utilities */
+/*contact*/
+.contact-header{
+    background-color: orange;
+    height:150px;
+    color:black;
+    padding:30px;
+
+}
+
+
+.contact-header a{
+    color:black
+}
+
+.contact-menu{
+    word-spacing: 10px;
+}
+
+.contact-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.contact-container h1{
+    text-align: center;
+    padding: 10px;
+}
+
+.contact-container h3{
+    text-align: center;
+}
+.contact-container p{
+    text-align: center;
+}
+
+.form-container{
+    background-color: #dedede;
+    padding:20px;
+    border-radius:10px;
+}
+
+legend{
+    font-size: 16px;
+    display: flex;
+}
+
+fieldset{
+    border:1pm solid gray;
+    padding:20px;
+    border: radius 10px;
+    margin-bottom: 20px;
+}
+
+label{
+
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+}
+
+input{
+    margin-top: 10px;
+    width: 60%;
+    height: 25px;
+}
+
+textarea{
+    margin-top: 10px;
+    width: 60%;
+    height: 45px;
+}
+
+select{
+    width: 60%;
+    height: 25px;
+}
+
+.selection{
+    justify-content: space-around;
+    width: 40%;
+}
+
+.contact-information{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:25px;
+    gap:50px;
+    height: 25px;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
 
 
 
-/*Penthouse section*/
 
 
-/*footer*/
+
+footer{
+    margin-top: 40px;
+    background-color: #ccc;
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer a{
+    color: black;
+    font-weight: bold;
+    text-decoration: solid underline;
+}
+
+footer p{
+    display: inline;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
