@@ -281,7 +281,7 @@ header.site-init{
     .btn {
         display: inline-block;
         font-size: 20px;
-        background: 5px; rgb(214, 131, 21);
+        background: 5px rgb(214, 131, 21);
         color:white;
         background: linear-gradient(0deg, rgba(120, 171, 238, 0.685) 0%, rgb(1, 27, 37) 100%);   
         border-radius: 5px;
@@ -442,7 +442,7 @@ header.site-init{
     border:0px;
 }
 .read:hover{
-    box-shadow: 0px 0px 40px 10px; #328BE9;
+    box-shadow: 0px 0px 40px 10px #328BE9;
     background: linear-gradient(0deg, rgb(95, 71, 25) 0%, rgb(218, 91, 33) 100%);
 }
 .footer-content{
@@ -498,7 +498,7 @@ header.site-init{
 }
 
 .person-intro {
-    box-shadow: 0px 0px 40px 10px #a09191; rgb(199, 204, 252);
+    box-shadow: 0px 0px 40px 10px #a09191 rgb(199, 204, 252);
     border: #000000;
     width: 330px;
     line-height: 1px;
@@ -554,7 +554,7 @@ header.site-init{
     border-radius: 4px;
 }
 .btn-learn:hover {
-    box-shadow: 0px 0px 40px 10px; #328BE9;
+    box-shadow: 0px 0px 40px 10px #328BE9;
     background: linear-gradient(0deg, rgb(5, 5, 10) 0%, rgb(7, 49, 92) 100%);
 }
 
@@ -714,6 +714,6 @@ footer p{
     text-align: center;
 }
 .btn-contact:hover {
-    box-shadow: 0px 0px 40px 10px; #328BE9;
+    box-shadow: 0px 0px 40px 10px #328BE9;
     background: linear-gradient(0deg, rgb(95, 71, 25) 0%, rgb(218, 91, 33) 100%);
 }
